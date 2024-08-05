@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: #ebf4f6;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #021526;
+  width: 100%vh;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  gap: 5px;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#getData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #03346e;
+  color: #f5eded;
+  font-size: 1rem;
+  transition: all 1s linear;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#getData:hover {
+  background-color: #6eacda;
+}
+
+#artist {
+  width: 150px;
+  text-transform: capitalize;
+}
+
+#titleOfSong {
+  width: 450px;
+  text-transform: capitalize;
+}
+
+.lyricsContent {
+  display: none;
+  flex-direction: column;
+  background-color: #f5f7f8;
+  width: 51%;
+  margin: auto;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+#lyrics {
+  font-size: 1.3rem;
+}
+
+#searchId {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px auto;
+  font-size: 3rem;
+}
+
+.footer {
+  background-color: #021526;
+}
+
+#footerBot {
+  text-align: center;
+  color: #f5eded;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+}
+
+.img {
+  display: flex;
+  width: 30px;
+}
+
+.footer {
+  padding: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#gitHub {
+  background-color: white;
+  border-radius: 100%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="container">
+            <input type="text" id="artist" placeholder="Enter Artist">
+            <input type="text" id="titleOfSong" placeholder="Enter Song">
+            <button type="submit" id="getData" onclick="getData()"><i class="fa-solid fa-magnifying-glass" ></i>Search</button>
+        </div>
+        
+    </div>
+    <div class="content-wrapper">
+        <div class="lyricsContent" id="lyricsId">
+            <h3 id="title"></h3>
+            <p id="lyrics"></p>
+        </div>
+    </div>
+    <h1 id="searchId">Search for Lyrics</h1>
+    <div class="footer">
+        <div class="footer-social">
+            <a href="https://www.facebook.com/ptrck.lmbn" target="_blank"><img src="assets/facebook.png" class="img"></a>
+            <a href="https://github.com/" target="_blank"><img src="assets/github.png" class="img" id="gitHub"></a>
+            <a href="https://api.lyrics.ovh/v1/Artist/Songs" target="_blank"><img src="assets/code.png" class="img"></a>
+        </div>
+        
+        <footer id="footerBot"><p>&copy; Made by Patrick Lambino</p></footer>
+    </div>
+    
+</body>
+</html>
